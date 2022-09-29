@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cander JavaScript Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="app.js" defer></script>
+    <script src="questions.js" defer></script>
+</head>
+<body>
+    
+    <h1>Cander JavaScript Quiz</h1>
+    <div class="startBtn"><button>Start Quiz</button></div>
+    
+    <div class="infoBox">
+        <div class="info-title"><span>How to Play</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have<span> 10 seconds</span> to answer each question.</div>
+            <div class="info">2. Selected answers cannot be changed.</div>
+            <div class="info">3. Your progress will not be saved if the page is refreshed.</div>
+            <div class="info">4. There is no option to restart once the quiz has begun.</div>
+            <div class="info">5. Each correct answer will garner one point.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quizBox">
+        <header>
+            <div class="title">Test Your JavaScript</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="timeLine"></div>
+        </header>
+        <section>
+            <div class="questionText">
+
+            </div>
+            <div class="optionList">
+        
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+    <div class="resultBox">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Thank you for completing our JavaScript test!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
