@@ -12,10 +12,10 @@ request.send()
 
 let questions = JSON.parse(sessionStorage.getItem('Question List'))
 
-/*
+
 function shuffleQuestions(questions){
   questions.sort(() => Math.random() - 0.5)
 }
 shuffleQuestions(questions)
-*/
+
 
