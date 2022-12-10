@@ -1,6 +1,6 @@
 # Cander JavaScript Quiz
 
-A JavScript Quiz built with vanilla JS that consumes an API that I built for the question list.
+A JavaScript Quiz built with vanilla JS that consumes an API that I built for the question list.
 
 Quiz does the following:
 <ul>
