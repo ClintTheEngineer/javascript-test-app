@@ -2,15 +2,14 @@ const request = new XMLHttpRequest()
 
 function onload(){
   const data = JSON.parse(this.response)
-  let temp = JSON.stringify(data)
-  sessionStorage.setItem('Question List', temp)
+  localStorage.setItem('Question List', JSON.stringify(data))
 }
 
 request.open('GET', `https://quiz-api.cyclic.app/api/questions`, true)
 request.addEventListener('load', onload)
 request.send()
 
-let questions = JSON.parse(sessionStorage.getItem('Question List'))
+let questions = JSON.parse(localStorage.getItem('Question List'))
 
 
 function shuffleQuestions(questions){
