@@ -13,3 +13,4 @@ Quiz does the following:
 </ul>
 
 Quiz live at: https://cander-js-quiz.netlify.app/
+Create, remove, update and delete questions from the quiz at: https://js-questions-api-input.netlify.app/
